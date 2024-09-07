@@ -1,3 +1,5 @@
 my-custom-theme-app
 
-<img src="screenshot-noble.png">
+## Noble:
+
+![Noble Screenshot](./screenshot-noble.png)
