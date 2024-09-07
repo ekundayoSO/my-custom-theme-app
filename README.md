@@ -1,3 +1,3 @@
 my-custom-theme-app
 
-![Screenshot](screenshot-noble.png)
+<img src="screenshot-noble.png">
