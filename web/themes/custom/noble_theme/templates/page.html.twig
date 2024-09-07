@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <header class="header">
+      {{ page.header }}
+      <nav>
+        <div class="logo flex">
+          <img
+            class="mr-2"
+            style="width: 80px; border-radius: 50%"
+            src="/themes/custom/noble_theme/assets/noble.png"
+          />
+          <h2>Elegance...</h2>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#conatct">Contact</a></li>
+        </ul>
+      </nav>
+      <br />
+      <div class="heading">
+        <h1>Welcome to the Royalty Experience</h1>
+      </div>
+      <nav class="menu">
+        {{ page.menu }}
+      </nav>
+    </header>
+    <main class="main">
+      <div class="content">
+        {{ page.content }}
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rerum ut blanditiis eius totam? Maiores in expedita aut iusto! Vitae nemo asperiores labore voluptas sunt aut hic velit dolor ab, consequuntur, mollitia corrupti nam necessitatibus repudiandae sapiente odio. Voluptate laudantium, deserunt animi, doloribus quibusdam, consequuntur nemo quos veritatis aperiam itaque reiciendis dolores consectetur culpa suscipit. Laudantium pariatur eum quidem deleniti quisquam obcaecati nihil? Perspiciatis eum placeat officiis consectetur veritatis blanditiis explicabo, eveniet sapiente ipsum reprehenderit ipsa sunt voluptatum, facere possimus.</p>
+      </div>
+      {% if page.sidebar %}
+      <div class="sidebar"></div>
+      {% endif %}
+    </main>
+
+    <footer class="footer">
+      {{ page.footer }}
+      <p><small>Copyright&copy; elegance 2024</small></p>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
