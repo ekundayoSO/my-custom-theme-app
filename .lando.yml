@@ -1,0 +1,7 @@
+name: my-custom-theme-app
+recipe: drupal11
+config:
+  webroot: web
+services:
+  appservice:
+    type: phpmyadmin
